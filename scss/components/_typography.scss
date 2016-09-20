@@ -1,0 +1,41 @@
+body {
+	@include text(10px, 1.2, 400, $black);
+}
+
+.header {
+	h1 {
+		@include text($font-large, $color: $white);
+		font-family: $verdana;
+	}
+	h2 {
+		@include text($font-medium, $color: $white);
+		font-family: $lucida;
+	}
+}
+
+.search-box {
+	@include text($font-medium, $color: $white);
+	font-family: $verdana;
+}
+
+.list-wrap label {
+	@include text($font-small, $color: #9bc3e9);
+	font-family: $lucida;
+}
+
+.lb-data .lb-caption {
+	@include text($font-medium, $weight: 400, $color: $white);
+	font-family: $verdana;
+}
+
+#list .save {
+    @include text($font-medium, $color: $black);
+	font-family: $lucida;
+}
+
+.footer {
+	h5 {
+		font-size: $font-small;
+		font-family: $verdana;
+	}
+}

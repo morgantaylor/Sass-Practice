@@ -1,0 +1,31 @@
+// ==================
+// Variables
+// ==================
+
+
+// Descriptive Colors
+
+$white        :     #ffffff;
+$black        :     #000000;
+$dark-gray    :     #333333;
+
+$blue         :     #2a6edd;
+$green        :     #128312;
+$red          :     #FF0000;
+
+// Fonts
+
+$sans-serif   :     sans-serif;
+$verdana      :     verdana, $sans-serif;
+$lucida       :     "Lucida Grande", "Lucida Sans", "DejaVu Sans", $sans-serif;
+
+// Font Sizes
+
+$font-large   :    2.5em;
+$font-medium  :    1.6em;
+$font-small   :    1.3em;
+
+// Media Breakpoints
+
+$media-narrow :    '(max-width: 768px)';
+$media-sm     :    '(max-width: 600px)';

@@ -1,0 +1,33 @@
+#list .like {
+  position:absolute;
+  top:0;  
+  left:0;
+  z-index:1;
+  padding:10px;
+  color: $dark-gray;
+  background: rgba($white,0.8);
+
+  &:hover {
+    color:rgba($blue,1.00);
+  }
+}
+
+
+#list .like:hover,
+#list .share:hover {
+  @extend %boxshadow;
+}
+
+#list .share {
+  position:absolute;
+  top:0;  
+  right:30px;
+  z-index:1;
+  padding:10px;
+  color: $dark-gray;
+  background: rgba($white,0.8);
+
+  &:hover {
+    color:rgba($red,1.00);
+  }
+}

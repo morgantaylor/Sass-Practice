@@ -1,0 +1,10 @@
+.header {
+  @extend %centered;
+  background-color: #666;
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}

@@ -1,0 +1,16 @@
+#list .save {
+  position:absolute;
+  bottom:32px;
+  left:0;
+  z-index:1;
+  width:85%;
+  height:30px;
+  padding:7px;
+  background: rgba($white,.8); 
+
+  &:hover {
+    color: rgba($white,1.00);
+    background: rgba($green,.70);
+  }  
+}
+

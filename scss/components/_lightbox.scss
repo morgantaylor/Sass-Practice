@@ -1,0 +1,79 @@
+/* lightbox styles */
+.lightboxOverlay {
+  position: fixed;
+  z-index: 9999;
+  background-color: #3c3c3c;
+}
+
+div#lightbox.lightbox {
+  top:0 !important;
+}
+
+.lb-outerContainer {
+  background-color: transparent;
+  width: 100% !important;
+  max-width:1000px !important;
+
+  @media #{$media-narrow} {
+    height: 515px;
+  }
+  @media #{$media-sm} {
+    height: 515px;
+  }
+}
+
+.lb-dataContainer {
+  max-width: 600px;
+  width:100% !important;
+  padding: 20px 0;
+  margin: 15px auto 0px auto;
+
+  @media #{$media-narrow} {
+    padding: 0px 50px;
+    margin: -30px auto 0px auto;
+  }
+  @media #{$media-sm} {
+    margin: -120px auto 0px auto;
+  }
+}
+
+.lb-image {
+  @extend %centered;
+  max-width: 800px !important;
+  width:100% !important;
+  height: auto !important;
+  margin: 0 auto;
+
+  @media #{$media-narrow} {
+    padding: 80px;
+  }
+  @media #{$media-sm} {
+    padding: 80px 80px 0px 80px;
+  }
+}
+
+.lb-nav a.lb-next {
+  opacity: 1;
+}
+
+.lb-nav a.lb-prev {
+  opacity: 1;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+.lb-data .lb-details {
+  @extend %centered;
+  float: none;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.8em;
+}
+
+.lb-data {
+  padding: 0 10px;
+  color: $white;
+}
